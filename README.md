@@ -23,3 +23,25 @@ and in many countries in the world, the resources necessary for such a task is o
 difficult to manage. Therefore, if generation of synthetic dataset through pivoting ap-
 proach is proven to be viable, the task of synthesizing datasets for text summarizing
 would become much less time consuming and less resource-intensive.
+
+This research aims to assess the feasibility of using pivoting techniques to create syn-
+thetic datasets for text summarizing in Bangla, thereby serving the following purposes:
+1. Synthesizing new datasets for text summarizing in Bangla that can be used in
+further research in the field of Bangla NLP.
+2. Paving the way for the synthesizing of many more datasets using the pivoting
+technique for not only text summarizing but also other NLP tasks such as question-
+answer generation, text elaboration, grammatical correction, etc.
+The solutions to problems and contributions of this research are:
+1. Suggesting a way to overcome the time and resource constraints associated with
+the synthesizing of human-generated datasets for Bangla text summarizing in
+NLP research by using pivoting techniques to generate synthetic datasets.
+2. Comparison of the generated summaries by using both human-generated sum-
+maries and pivoted summaries of the same text dataset as training data; evalua-
+tion of their scores in ROUGE, BLEU, and chrf++ parameters as well as in human
+assessment.
+3. Comparison of the performance of the synthetic datasets in 4 different categories
+of news articles, namely: “National”, “International”, “Sports” and “Science and
+Technology” to see which category is best suitable for the application of the piv-
+oting technique for synthetic dataset generation.
+4. Synthesizing of a new dataset with pivoted “text and abstractive summary” pairs,
+to be used for further research.
